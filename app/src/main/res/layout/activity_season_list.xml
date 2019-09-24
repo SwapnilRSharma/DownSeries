@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeasonListActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ToolbarColoredBackArrow"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorAccent"
+            >
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/bAddToFav"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Add To Favorites"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorOffWhite"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        />
+
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_season_list"
+        android:layout_below="@+id/bAddToFav"
+        android:clipToPadding="false"
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

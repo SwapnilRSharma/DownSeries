@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1094023502960",
+    "firebase_url": "https://downseries-b3f7f.firebaseio.com",
+    "project_id": "downseries-b3f7f",
+    "storage_bucket": "downseries-b3f7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094023502960:android:c7b9c3d322f1171a",
+        "android_client_info": {
+          "package_name": "com.doodlepie.downseries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094023502960-kdp1sa35l7rhuq43g6cs494etfgr0m1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doodlepie.downseries",
+            "certificate_hash": "9ed64b413d53eecc362120ee6341fe1d30f5cd36"
+          }
+        },
+        {
+          "client_id": "1094023502960-5n31p43eta0g7rrp04v205soh0alg5nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxi0Kd6eDNnYQz4mkaOCvNWCc96Z-pqOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094023502960-5n31p43eta0g7rrp04v205soh0alg5nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
